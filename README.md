@@ -3,10 +3,11 @@
 </p>
 
 ### Installation :package:
-1. Clone this repository
-   ```
+1. Clone this repository and install the dependencies
+   ```sh
    git clone https://github.com/creuserr/cloudbot.git
    cd cloudbot
+   npm install
    ```
 2. Create a new `.env` file and place all the necessary tokens
    ```env
@@ -14,10 +15,10 @@
    CLIENT_ID=your-discord-app-client-id
    ```
 3. Run a test
-   ```
+   ```sh
    npm test
    ```
 4. If everything is ready, start the client
-   ```
+   ```sh
    node src/index.js
    ```
