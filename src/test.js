@@ -6,11 +6,13 @@ function assert(condition, error) {
 }
 
 console.info("[1]: Importing dotenv");
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
+assert(dotenv != null, "Missing package: dotenv");
 dotenv.config();
 
 console.info("[2]: Importing discord.js");
-import discord from "discord.js";
+const discord = require("discord.js");
+assert(discord != null, "Missing package: discord.js");
 
 console.info("[3]: Checking environment variables");
 assert(process.env.TOKEN != null, "Missing environment variable: TOKEN");
