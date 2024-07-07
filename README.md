@@ -1,5 +1,5 @@
 ### cloudbot :cloud:
-A deploy-it-yourself discord bot template of cloudcre for downloading music and lyrics.
+A deploy-it-yourself discord bot template of [cloudcre](https://github.com/creuserr/cloudcre) for downloading music and lyrics.
 
 ![Example interaction](https://github.com/creuserr/cloudbot/assets/151720755/ee927caa-a582-45d5-a3cc-2cb9872291ad)
 
