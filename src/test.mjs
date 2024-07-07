@@ -1,3 +1,7 @@
+// If you prefer using ESM,
+// make sure to add type: module
+// on your package.json file.
+
 function assert(condition, error) {
   if(condition) return;
   console.error(`[E]: ${error}`);
