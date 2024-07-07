@@ -1,11 +1,16 @@
-require("dotenv").config();
+// If you prefer using ESM,
+// make sure to add type: module
+// on your package.json file.
 
-const {
+import dotenv from "dotenv";
+dotenv.config();
+
+import {
   REST,
   Routes,
   Client,
   GatewayIntentBits
-} = require("discord.js");
+} from "discord.js";
 
 const SearchCommand = {
   options: [
