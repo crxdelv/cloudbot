@@ -1,3 +1,9 @@
+### cloudbot :cloud:
+A deploy-it-yourself discord bot template of cloudcre for downloading music and lyrics.
+
+![Example interaction](https://github.com/creuserr/cloudbot/assets/151720755/ee927caa-a582-45d5-a3cc-2cb9872291ad)
+
+
 <p align="center">
   <img alt="Discord.js Version" src="https://img.shields.io/badge/Discord.JS-14.15.3-7289DA?style=for-the-badge&logo=discord&logoColor=white">
 </p>
