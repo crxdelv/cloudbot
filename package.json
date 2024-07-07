@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "name": "cloudbot",
+  "version": "1.0.0",
+  "description": "discord bot for cloudcre.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creuserr/cloudbot.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "music-downloader",
+    "open-source",
+    "javascript",
+    "discord-js"
+  ],
+  "author": "creuserr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creuserr/cloudbot/issues"
+  },
+  "homepage": "https://github.com/creuserr/cloudbot#readme"
+}
