@@ -22,3 +22,21 @@
    ```sh
    node src/index.js
    ```
+
+### Commands
+
+#### `/search query:<string>`
+
+`/search` command is used to search for a song. The bot will send an audio attachment once downloaded. The audio is provided by Piped.
+
+`query:` option is required. This is the keyword of what song you would like to search.
+
+![Example of /search](https://github.com/creuserr/cloudbot/assets/151720755/91c45164-4cc0-4776-baf1-1d9e3bb24598)
+
+#### `/lyrics query:<string>`
+
+`/lyrics` command is used to search for a lyrics. The lyrics are provided by Genius.
+
+`query:` option is required. This is the keyword of what song you would like to read its lyrics.
+
+![Example of /lyrics](https://github.com/creuserr/cloudbot/assets/151720755/d15ad5c0-e584-4b4a-8a6b-f3804052e51d)
